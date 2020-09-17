@@ -1,6 +1,6 @@
-#A program to find all the possible combination of stiring from a given string upto certain pair.
+#A program to find all the possible combination of stiring from a given string upto certain pair.(anagrams)
 #       input:
-#           abc 3
+#           abc
 #       output:
 #           a
 #           b
@@ -11,9 +11,9 @@
 #           abc
 from itertools import combinations
 
-string, possibility = input().split()
-possibility = int(possibility)
-for i in range(1,possibility+1):
+string = input()
+for i in range(1,len(string)+1):
     x = combinations(string, i)
-    for i in x:
-        print("".join(i))
+    for j in x:
+        print("".join(j))
+
