@@ -15,3 +15,5 @@ Program 11--> Syambara (mock codevite)
 Program 12--> Grooving monkeys(mock codevite)
 Program 13--> Digit pairing (mock codevite)
 Program 14--> decimal to binary then reverse bits then to again decimal
+Program 15--> Anagrams printing
+Program 16--> Printing all the perfect squares upto a certain user input number.
