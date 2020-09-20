@@ -48,4 +48,3 @@ elif(player1point < player2point):
     print("{} Won".format(player2))
 else:
     print("Its a draw")
-print(a)
